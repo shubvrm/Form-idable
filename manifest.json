@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Job Form Filler",
+  "version": "1.0",
+  "description": "Fills out job application forms with one click using your saved profile.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
